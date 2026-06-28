@@ -4,8 +4,8 @@
 
 package="nginx wget unzip"
 url='https://www.tooplate.com/zip-templates/2156_graphite_creative.zip'
-art_name=2156_graphite_creative
-svc=nginx
+art_name='2156_graphite_creative'
+svc='nginx'
 ##################################################
 echo "############################################"
 echo "updating the OS"
@@ -35,7 +35,7 @@ echo
 
 echo "############################################"
 echo "Copying UNZIP File"
-cp -r $art_name/* /var/www/html/.
+cp -r $art_name/* /var/www/html/
 echo "###########################################"
 echo
 
